@@ -1,0 +1,10 @@
+lambdas:
+  functions:
+    func1:
+      code: func1.py
+      role: defaultrole
+  roles:
+    basic:
+      policies_inline:
+      - cloudwatch-logs
+  vpc: auto
